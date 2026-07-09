@@ -1,8 +1,8 @@
-# Nim Game Frontend
+﻿# Nim Game Frontend
 
 React frontend for a web implementation of the Nim game.
 
-The application provides an interactive board where the user selects adjacent sticks from one row, confirms moves, and can ask the computer to play. It communicates with the Flask backend hosted in the companion repository [`api_nim`](https://github.com/abenjass/api_nim).
+The application provides an interactive board where the user selects adjacent sticks from one row, confirms moves, and can ask the computer to play. It communicates with the Flask backend hosted in the companion repository [`api_nim`](https://github.com/abenjas7/api_nim).
 
 Live app:
 
@@ -36,7 +36,7 @@ https://api-nim.onrender.com
 The backend repository is available at:
 
 ```text
-https://github.com/abenjass/api_nim
+https://github.com/abenjas7/api_nim
 ```
 
 The frontend sends a browser-generated `X-User-ID` header so the API can keep independent game sessions per user.
@@ -72,3 +72,4 @@ The UI keeps selection state locally, validates basic interaction rules before s
 ## Portfolio Note
 
 This project demonstrates frontend development, REST API integration, state management, user interaction rules, and deployment-oriented separation between frontend and backend.
+
